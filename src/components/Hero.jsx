@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
         <div
           data-aos="slide-left"
-          data-aos-delay="1200"
+          data-aos-delay="150"
           className="absolute h-full md:w-5/12 w-11/15 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
           <h1 className="rotate-0 absolute top-[20%] left-[5%] right-[2%] text-[#EAF2FA]">

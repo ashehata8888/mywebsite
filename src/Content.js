@@ -4,6 +4,17 @@ import Hero_person from "./assets/images/Hero/person.png";
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
+import postgres from "./assets/images/Skills/postgres.png"
+import redux from "./assets/images/Skills/Redux.png"
+import ts from "./assets/images/Skills/ts.png"
+import js from "./assets/images/Skills/js.jpg"
+import es from "./assets/images/Skills/es.png"
+import css from "./assets/images/Skills/css.png"
+import html from "./assets/images/Skills/html.png"
+import tw from "./assets/images/Skills/tailwind.png"
+import jest from "./assets/images/Skills/jest.png"
+
+import next from "./assets/images/Skills/nextjs.png"
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
@@ -89,25 +100,57 @@ export const content = {
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "Next js",
+        para: "Empowering Modern Web Development",
+        logo: next,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        name: "PostgresSQL",
+        para: "Empowering Data, Unleashing Possibilities",
+        logo: postgres,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Redux",
+        para: "Empowering State Management, Unleashing Application Potential",
+        logo: redux,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "TypeScript",
+        para: "Development with Powerful Typing and Unleashed Productivity",
+        logo: ts,
       },
+      {
+        name: "JavaScript",
+        para: "Unleashing Limitless Web Creativity",
+        logo: js,
+      },
+      {
+        name: "ECMAScript13",
+        para: "Elevating JavaScript's Potential to New Heights",
+        logo: es,
+      },
+      {
+        name: "CSS",
+        para: "Transforming Web Design with Style and Elegance",
+        logo: css,
+      },
+      {
+        name: "HTML",
+        para: "Crafting the Web's Foundation, Inspiring Limitless Possibilities",
+        logo: html,
+      },
+      ,
+      {
+        name: "TailWindCSS",
+        para: "Unleashing Rapid Web Styling with Elegant Simplicity",
+        logo: tw,
+      },
+      {
+        name: "Jest",
+        para: "Embrace Testing Excellence, Unleash Bug-Free Code",
+        logo: jest,
+      }
+
     ],
     icon: MdArrowForward,
   },
