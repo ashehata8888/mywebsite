@@ -85,7 +85,7 @@ export const content = {
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Scalability, and Seamless Integration",
         logo: nodejs,
       },
       {
