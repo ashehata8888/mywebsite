@@ -49,13 +49,13 @@ const Portfolio = () => {
                border-slate-200 md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
               >
-                <img src={content.img} alt="..."  style={{marginLeft:"10px",minWidth:"8rem",maxWidth:"17rem"}}/>
+                <a href={content.link} target="_blank"> <img src={content.img} alt="..."  style={{marginLeft:"10px",minWidth:"8rem",maxWidth:"17rem"}}/> </a>
                 <div className="pr-8">
                   <h6 style={{marginBottom:"5px",fontSize:"17pt"}}>{content.name}</h6>
                 
                   <p className="sm:text-base text-sm mr-16">{content.review}</p>
-                   <h6><a href={content.link}>WebSite Demo</a></h6>
-                   <h6><a href={content.gitLink}>GitHub Repo</a></h6>
+                   <h6 ><a className="border border-gray-300 rounded-lg pr-2 pl-2 bg-sky-400 hover:bg-sky-500 focus:bg-sky-600" href={content.link} target="_blank">WebSite Demo</a></h6>
+                   <h6><a className="border border-gray-300 rounded-lg pr-2 pl-2 bg-sky-400 hover:bg-sky-500 focus:bg-sky-600" href={content.gitLink} target="_blank">GitHub Repo</a></h6>
                 </div>
               </div>
             </SwiperSlide>

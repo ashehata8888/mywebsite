@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_xternk8', 'template_belb2wl', form.current, '5rtr_dm7P5t9qAIht'
       )
       .then(
         (result) => {
@@ -86,7 +86,7 @@ const Contact = () => {
                 className="flex items-center gap-2"
               >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <a className="font-Poppins" href={content.text == "ashehata8888@gmail.com" ? "mailto:ashehata8888@gmail.com" :content.link} target="_blank">
                   {content.text}
                 </a>
               </div>

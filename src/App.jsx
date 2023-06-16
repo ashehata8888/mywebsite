@@ -30,9 +30,9 @@ const App = () => {
       <Certificates />
       <Portfolio/>
       <Service />
-      <Projects />
+      {/* <Projects />
       <Testimonials />
-      <Hireme />
+      <Hireme /> */}
       <Contact />
       <footer className="p-3 text-center">
         {/* <h6 className="mb-3">Ahmed Shehata</h6> */}

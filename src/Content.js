@@ -54,11 +54,16 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 import crm1 from "./assets/images/Portfolio/crm1.png"
 import crm2 from "./assets/images/Portfolio/crm2.png"
+import todo from "./assets/images/Portfolio/todo.png"
+import expense from "./assets/images/Portfolio/expense.png"
+import rover from "./assets/images/Portfolio/rover.png"
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
+import { FaLinkedin } from 'react-icons/fa';
+
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -245,27 +250,27 @@ export const content = {
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: crm2,
+          "“Developed using the Reactjs, It's a powerful task management solution that puts the control in your hands. With a focus on CRUD operations (Create, Read, Update, Delete), this app enables users to efficiently manage their tasks and streamline their workflow.”",
+        img: todo,
         name: "TO DO LIST",
         link: "https://ahmed-shehata-todo-list.onrender.com/",
         gitLink:"https://github.com/ashehata8888/todo_app"
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-        link: "https://ahmed-shehata-crm.onrender.com/",
-        gitLink:"https://ahmed-shehata-crm.onrender.com/"
+          "“Developed by Reactjs and designed with a focus on real-time coordination updates, this app empowers users to control the rover's movements by providing specific commands. By using 'F' to move the rover forward one step, 'B' to move it back, 'R' to make a right turn, and 'L' to make a left turn.”",
+        img: rover,
+        name: "MARS ROVER",
+        link: "https://ahmed-shehata-mars-rover.onrender.com/",
+        gitLink:"https://github.com/ashehata8888/mars-rover/"
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-        link: "https://ahmed-shehata-crm.onrender.com/",
-        gitLink:"https://ahmed-shehata-crm.onrender.com/"
+          "“The Expense Tracker App is an innovative application that simplifies the process of managing your finances. With a focus on tracking expenses and budgeting, this app empowers users to effortlessly update and monitor their financial transactions”",
+        img: expense,
+        name: "EXPENSE TRACKER",
+        link: "https://expenses-tracker-ahmed-shehata.onrender.com/",
+        gitLink:"https://github.com/ashehata8888/expense_tracker/"
       },
     ],
   },
@@ -273,23 +278,23 @@ export const content = {
   
   
   services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
+    title: "Work Experiance",
+    subtitle: "FULL-STACK WEB DEVELOPER AT EGMED SINCE JAN 21 TILL NOW",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Backend",
+        para: "Developing server-side logic and APIs using Node.js and TypeScript, Managing databases and implementing efficient data access layers, Ensuring secure authentication and authorization mechanisms and Optimizing performance, handling errors, and implementing testing and quality assurance.",
         logo: services_logo1,
       },
       {
-        title: "Professional Front-End Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
+        title: "FrontEnd",
+        para: " Developing responsive UIs using React.js, Next.js, and Tailwind CSS, Integrating with backend APIs and managing application state, Performing unit testing using Jest to ensure code quality and Optimizing performance and collaborating with teams to stay updated with latest technologies.",
+        logo: services_logo1,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
+        title: "Deployments",
+        para: "Implementing CI/CD pipelines for efficient deployments, Managing infrastructure using IaC and containerization, Monitoring and ensuring security and compliance and Collaborating with teams for seamless deployments.",
+        logo: services_logo2,
       },
     ],
   },
@@ -355,19 +360,19 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "ashehata8888@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "ashehata8888@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+20 11 00 33 14 59",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/01284116638",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "Linkedin",
+        icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/ahmed-shehata-a9608097/",
       },
     ],
   },
