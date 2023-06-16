@@ -24,7 +24,7 @@ const Certificates = () => {
         </div>
         <div 
         style={{
-          minWidth: "120vh",
+          minWidth: "125vh",
           height: "100vh",
           '@media (max-width: 600px)': { // Mobile screens
             minWidth: "80vw",
@@ -49,7 +49,7 @@ const Certificates = () => {
           /> */}
           <Swiper
               style={{
-                minWidth: "120vh",
+                minWidth: "125vh",
                 height: "100vh",
                 '@media (max-width: 600px)': { // Mobile screens
                   minWidth: "80vw",
@@ -84,7 +84,7 @@ const Certificates = () => {
                 key={i}
 
                 style={{
-                  minWidth: "120vh",
+                  minWidth: "125vh",
                   height: "100vh",
                   '@media (max-width: 600px)': { // Mobile screens
                     minWidth: "80vw",
@@ -109,6 +109,7 @@ const Certificates = () => {
                 <img 
 
                   style={{
+                    paddingBottom:"30px",
                     minWidth: "120vh",
                     height: "100vh",
                     '@media (max-width: 600px)': { // Mobile screens

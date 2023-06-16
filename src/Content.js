@@ -15,6 +15,20 @@ import tw from "./assets/images/Skills/tailwind.png"
 import jest from "./assets/images/Skills/jest.png"
 
 import udFull from "./assets/images/certificates/photos/udacityFullstack.png"
+import udFront from "./assets/images/certificates/photos/udacityFront.png"
+import react from "./assets/images/certificates/photos/react.jpg"
+import es6 from "./assets/images/certificates/photos/es6.jpg"
+import tsc from "./assets/images/certificates/photos/ts.jpg"
+import node from "./assets/images/certificates/photos/node.jpg"
+import jsc from "./assets/images/certificates/photos/js.jpg"
+import mongo from "./assets/images/certificates/photos/mongodb.jpg"
+import jsd from "./assets/images/certificates/photos/javascript.jpg"
+import htmlc from "./assets/images/certificates/photos/html.jpg"
+import dbc from "./assets/images/certificates/photos/database.jpg"
+import phpc from "./assets/images/certificates/photos/php.jpg"
+
+
+
 
 import next from "./assets/images/Skills/nextjs.png"
 import reactjs from "./assets/images/Skills/react.png";
@@ -37,6 +51,9 @@ import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
+
+import crm1 from "./assets/images/Portfolio/crm1.png"
+import crm2 from "./assets/images/Portfolio/crm2.png"
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -166,15 +183,95 @@ export const content = {
         image: udFull,
       },
       {
-        title: "Social Media web",
-        image: udFull,
+        title: "Professional Front-End Web Development",
+        image: udFront,
       },
       {
-        title: "Creative Website",
-        image: udFull,
+        title: "react",
+        image: react,
+      },
+      {
+        title: "es6",
+        image: es6,
+      },
+      {
+        title: "tsc",
+        image: tsc,
+      },
+      {
+        title: "node",
+        image: node,
+      },
+      {
+        title: "jsc",
+        image: jsc,
+      },
+      {
+        title: "mongo",
+        image: mongo,
+      },
+      {
+        title: "jsd",
+        image: jsd,
+      },
+      {
+        title: "htmlc",
+        image: htmlc,
+      },
+      {
+        title: "dbc",
+        image: dbc,
+      },
+      {
+        title: "phpc",
+        image: phpc,
+      }
+    ],
+  },
+  Portfolio: {
+    title: "Portfolio",
+    subtitle: "MY TOP PROJECTS",
+    Portfolio_content: [
+      {
+        review:
+          "“ Full-Stack CRM web, developed using React.js, Node.js, and Postgres, empowers sales representatives to optimize their performance by leveraging real-time insights into daily activities and market potentiality.”",
+           
+
+        img: crm2,
+        name: "CRM",
+        link: "https://ahmed-shehata-crm.onrender.com/",
+        gitLink:"https://github.com/ashehata88888/PEN_Test_Render_FrontEnd/"
+
+      },
+      {
+        review:
+          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        img: crm2,
+        name: "TO DO LIST",
+        link: "https://ahmed-shehata-todo-list.onrender.com/",
+        gitLink:"https://github.com/ashehata8888/todo_app"
+      },
+      {
+        review:
+          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        img: avatar3,
+        name: "Johnny",
+        link: "https://ahmed-shehata-crm.onrender.com/",
+        gitLink:"https://ahmed-shehata-crm.onrender.com/"
+      },
+      {
+        review:
+          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        img: avatar4,
+        name: "ROBBIN",
+        link: "https://ahmed-shehata-crm.onrender.com/",
+        gitLink:"https://ahmed-shehata-crm.onrender.com/"
       },
     ],
   },
+  
+  
+  
   services: {
     title: "Services",
     subtitle: "WHAT I OFFER",
@@ -185,7 +282,7 @@ export const content = {
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "Professional Front-End Web Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo2,
       },

@@ -4,6 +4,7 @@ import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
 import Service from "./components/Services";
 import Certificates from "./components/Certificates"
+import Portfolio from "./components/Portfolio";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
@@ -27,6 +28,7 @@ const App = () => {
       <Hero />
       <Skills />
       <Certificates />
+      <Portfolio/>
       <Service />
       <Projects />
       <Testimonials />
