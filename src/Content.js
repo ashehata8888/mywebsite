@@ -14,6 +14,8 @@ import html from "./assets/images/Skills/html.png"
 import tw from "./assets/images/Skills/tailwind.png"
 import jest from "./assets/images/Skills/jest.png"
 
+import udFull from "./assets/images/certificates/photos/udacityFullstack.png"
+
 import next from "./assets/images/Skills/nextjs.png"
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
@@ -153,6 +155,25 @@ export const content = {
 
     ],
     icon: MdArrowForward,
+  },
+  certificates:{
+    title: "Courses",
+    subtitle: "MY CERTIFICATES",
+    image: person_project,
+    certificate_content: [
+      {
+        title: "Udacity Advanced Full-Stack",
+        image: udFull,
+      },
+      {
+        title: "Social Media web",
+        image: udFull,
+      },
+      {
+        title: "Creative Website",
+        image: udFull,
+      },
+    ],
   },
   services: {
     title: "Services",
