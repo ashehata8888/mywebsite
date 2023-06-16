@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --force",
-    "preview": "vite preview"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
@@ -16,6 +15,7 @@
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.6.0",
     "react-modal": "^3.16.1",
+    "react-scripts": "^5.0.1",
     "swiper": "^8.4.4"
   },
   "devDependencies": {
