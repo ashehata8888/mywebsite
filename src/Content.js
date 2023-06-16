@@ -181,7 +181,7 @@ export const content = {
   certificates:{
     title: "Courses",
     subtitle: "MY CERTIFICATES",
-    image: person_project,
+    image: "person_project",
     certificate_content: [
       {
         title: "Udacity Advanced Full-Stack",
