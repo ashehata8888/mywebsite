@@ -93,7 +93,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Full-Stack Web Developer",
+    title: "Sr.Full-Stack Web Developer",
     firstName: "Ahmed",
     LastName: "Shehata",
     btnText: "Hire Me",
