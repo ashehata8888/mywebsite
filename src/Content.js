@@ -279,7 +279,7 @@ export const content = {
   
   services: {
     title: "Work Experiance",
-    subtitle: "FULL-STACK WEB DEVELOPER AT EGMED SINCE JAN 21 TILL NOW",
+    subtitle: "Sr FULL-STACK WEB DEVELOPER AT EGMED SINCE JAN 21 TILL NOW",
     service_content: [
       {
         title: "Backend",
@@ -356,7 +356,7 @@ export const content = {
   //   btnText: "Hire Me",
   // },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
