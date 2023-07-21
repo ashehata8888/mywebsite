@@ -54,6 +54,7 @@ import services_logo2 from "./assets/images/Services/logo2.png";
 
 // import crm1 from "./assets/images/Portfolio/crm1.png"
 import crm2 from "./assets/images/Portfolio/crm2.png"
+import cityCourier from "./assets/images/Portfolio/cityCourier.png"
 import todo from "./assets/images/Portfolio/todo.png"
 import expense from "./assets/images/Portfolio/expense.png"
 import rover from "./assets/images/Portfolio/rover.png"
@@ -93,7 +94,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Sr.Full-Stack Web Developer",
+    title: "Senior Full-Stack Web Developer",
     firstName: "Ahmed",
     LastName: "Shehata",
     btnText: "Hire Me",
@@ -104,7 +105,7 @@ export const content = {
         text: "Years of Experinse in Full-Stack Web development",
       },
       {
-        count: "5+",
+        count: "7+",
         text: "Projects Worked in my career",
       },
     ],
@@ -244,8 +245,18 @@ export const content = {
 
         img: crm2,
         name: "CRM",
-        link: "https://ahmed-shehata-crm.onrender.com/",
+        link: "https://ahmed-shehata-crm.onrender.com",
         gitLink:"https://github.com/ashehata88888/PEN_Test_Render_FrontEnd/"
+
+      },
+      {
+        review:
+          "“ Full-stack web app with React.js for front-end and Node.js with Postgres for back-end.Streamlines shipping process, real-time tracking,and efficient package management.Enhances customer experience and courier productivity for seamless deliveries.”",
+
+        img: cityCourier,
+        name: "City Courier",
+        link: "https://ahmed-shehata-city-courier-shipping-app.onrender.com/",
+        gitLink:"https://github.com/ashehata8888/city_courier_frontend.git/"
 
       },
       {
