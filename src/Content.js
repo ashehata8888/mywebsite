@@ -58,6 +58,7 @@ import cityCourier from "./assets/images/Portfolio/cityCourier.png"
 import todo from "./assets/images/Portfolio/todo.png"
 import expense from "./assets/images/Portfolio/expense.png"
 import rover from "./assets/images/Portfolio/rover.png"
+import moviesdb from "./assets/images/Portfolio/moviesdb2.png"
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -259,13 +260,14 @@ export const content = {
         gitLink:"https://github.com/ashehata8888/city_courier_frontend.git/"
 
       },
+ 
       {
         review:
-          "“Developed using the Reactjs, It's a powerful task management solution that puts the control in your hands. With a focus on CRUD operations (Create, Read, Update, Delete), this app enables users to efficiently manage their tasks and streamline their workflow.”",
-        img: todo,
-        name: "TO DO LIST",
-        link: "https://ahmed-shehata-todo-list.onrender.com/",
-        gitLink:"https://github.com/ashehata8888/todo_app"
+          "“Experience the ultimate Movie Database App, where discovering your favorite films is a breeze with our visually captivating grid view. Powered by React.js, it's your go-to source for all the movie data you need.”",
+        img: moviesdb,
+        name: "Movies Database",
+        link: "https://ahmed-shehata-db-movies.vercel.app/",
+        gitLink:"https://github.com/ashehata8888/mov.git"
       },
       {
         review:

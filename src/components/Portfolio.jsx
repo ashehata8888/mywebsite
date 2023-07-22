@@ -49,7 +49,7 @@ const Portfolio = () => {
                border-slate-200 md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
               >
-                <a href={content.link} target="_blank"> <img src={content.img} alt="..."  style={{marginLeft:"10px",minWidth:"8rem",maxWidth:"17rem"}}/> </a>
+                <a href={content.link} target="_blank"> <img src={content.img} alt="..."  style={{marginLeft:"10px",minWidth:"8rem",maxWidth:"17rem" ,maxHeight:"10rem"}}/> </a>
                 <div className="pr-8">
                   <h6 style={{marginBottom:"5px",fontSize:"17pt"}}>{content.name}</h6>
                 
