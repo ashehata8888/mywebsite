@@ -263,7 +263,7 @@ export const content = {
  
       {
         review:
-          "“Experience the ultimate Movie Database App, where discovering your favorite films is a breeze with our visually captivating grid view. Powered by React.js, it's your go-to source for all the movie data you need.”",
+          "“Experience the ultimate Movie Database App, where discovering your favorite films is a breeze with our visually captivating grid view. Powered by Next.js, it's your go-to source for all the movie data you need.”",
         img: moviesdb,
         name: "Movies Database",
         link: "https://ahmed-shehata-db-movies.vercel.app/",
