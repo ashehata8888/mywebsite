@@ -95,15 +95,15 @@ export const content = {
     },
   ],
   hero: {
-    title: "Senior Full-Stack Web Developer",
+    title: `Front-End Developer I-Soft UAE`,
     firstName: "Ahmed",
     LastName: "Shehata",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "2+",
-        text: "Years of Experinse in Full-Stack Web development",
+        count: "3+",
+        text: "Years of Experinse in Front-End Web development",
       },
       {
         count: "7+",
@@ -292,7 +292,7 @@ export const content = {
   
   services: {
     title: "Work Experiance",
-    subtitle: "Sr FULL-STACK WEB DEVELOPER AT EGMED SINCE JAN 21 TILL NOW",
+    subtitle: "FULL-STACK WEB DEVELOPMENT",
     service_content: [
       {
         title: "Backend",
